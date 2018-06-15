@@ -1,0 +1,362 @@
+#html1{
+    background-color: whitesmoke;
+}
+
+.contenidor{
+    width: 71%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.text{
+    position: relative;
+    text-decoration: none;
+    font-size: 150%;
+    top: 50px;
+    color: black;
+}
+
+.forma{
+     display: inline-block;
+     height: 200px;
+     width: 42%;
+     transition: 0.2s all;
+     border: 3px solid #555; 
+     background: #428bca;
+     border-color: darkgrey;
+     border-style: solid;
+     border-width: medium;
+     opacity: 0.6;
+     background-color: grey;
+     text-align: center;
+     font-size: 400%;
+     font-family: monospace;
+     -webkit-transform: skew(20deg);
+     -moz-transform: skew(20deg);
+     -ms-transform: skew(20deg);
+     -o-transform: skew(20deg);
+     transform: skew(-20deg);
+     z-index: 10;
+}
+
+.forma:hover{
+    transform: scale(1.05) skew(-20deg);
+}
+
+#nom{
+    position: relative;
+    margin-top: 5%;
+    margin-left: 42%;
+    font-size: 60px;
+    font-family: monospace;
+    opacity: 0.6;
+    transition: 0.2s all;
+    text-decoration: none;
+}
+
+#ratlla{
+     position: relative;
+     border: 1px solid #555;
+     margin-left: 65%;
+     height: 5px;
+     width: 300px;
+     border-color: darkgrey;
+     border-style: solid;
+     border-width: medium;
+     opacity: 0.6;
+     background-color: black;
+     -webkit-transform: skew(20deg);
+     -moz-transform: skew(20deg);
+     -ms-transform: skew(20deg);
+     -o-transform: skew(20deg);
+     transform: skew(-20deg);
+     z-index: 10;
+     transition: 0.2s all;
+}
+
+#rectrat{
+    position: relative;
+    height: 15px;
+    width: 330px;
+    margin-top: -0.9%;
+    margin-left: 64%;
+    background-color: whitesmoke;
+    z-index: 11;
+}
+
+#nom:hover{
+   opacity: 0.8;
+}
+
+#nom:hover ~ #ratlla{
+   opacity: 0.8;
+ transform: translateX(-340px)  skew(-20deg);
+}
+
+#animacio{
+    margin-left: 10%;
+    margin-top: 2%;
+     }
+#animacio:hover{
+    opacity: 1;
+    z-index: 12;
+}
+
+#modelatge{
+    margin-left: -0.4%;
+     }
+
+#modelatge:hover{
+    opacity: 1;
+    z-index: 12;
+}
+
+#ilustracio{
+    margin-left: 5%;
+     }
+
+#ilustracio:hover{
+    opacity: 1;
+    z-index: 12;
+}
+
+#programacio{
+    margin-left: -0.4%;
+     }
+
+#programacio:hover{
+    opacity: 1;
+    z-index: 12;
+}
+#cv{
+     position: relative;
+     margin-top: 1%;
+     margin-left: 30%;
+     height: 10%;
+     transition: 0.2s all;
+     border: 3px solid #555; 
+     background: #428bca;
+     height: 50%;
+     width: 30%;
+     border-color: darkgrey;
+     border-style: solid;
+     border-width: medium;
+     opacity: 0.6;
+     background-color: grey;
+     text-align: center;
+     font-size: 400%;
+     font-family: monospace;
+     -webkit-transform: skew(20deg);
+     -moz-transform: skew(20deg);
+     -ms-transform: skew(20deg);
+     -o-transform: skew(20deg);
+     transform: skew(-20deg);
+}
+#cvtext{
+    position: relative;
+    text-decoration: none;
+    font-size: 100%;
+    color: black;
+}
+
+#cv:hover{
+    opacity: 0.8;
+    transform: scale(1.05) skew(-20deg);
+    z-index: 12;
+}
+
+#video3D{
+    position: relative;
+    left: 6%;
+    top: 100px;
+    border: 3px solid #555; 
+    border-color: black;
+    border-style: solid;
+    border-width: thick;
+}
+#video2D{
+    position: relative;
+    left: 6%;
+    top: 101px;
+    border: 3px solid #555; 
+    border-color: black;
+    border-style: solid;
+    border-width: thick;
+}
+
+#tresd{
+    position: fixed;
+    height: 100px;
+    width: 200px;
+    top: 200px;
+    left: 25%;
+    font-family: monospace;
+    font-size: 80px;
+}
+
+#dosd{
+    position: fixed;
+    height: 100px;
+    width: 200px;
+    top: 200px;
+    left: 68%;
+    font-family: monospace;
+    font-size: 80px;
+}
+
+.return{
+     display: inline-block;
+     height: 60px;
+     width: 10%;
+     margin-left: 85%;
+     margin-top: 12%;
+     transition: 0.2s all;
+     border: 3px solid #555; 
+     background: #428bca;
+     border-color: darkgrey;
+     border-style: solid;
+     border-width: medium;
+     opacity: 0.6;
+     background-color: grey;
+     text-align: center;
+     font-size: 400%;
+     font-family: monospace;
+     -webkit-transform: skew(20deg);
+     -moz-transform: skew(20deg);
+     -ms-transform: skew(20deg);
+     -o-transform: skew(20deg);
+     transform: skew(-20deg);
+     text-decoration: none;
+     color: black;
+     z-index: 10;
+}
+
+.return:hover{
+    opacity: 1;
+    transform: scale(1.05) skew(-20deg);
+}
+
+#terreny{
+    position: relative;
+    height: 400px;
+    margin-top: 130px;
+    margin-left: 200px;
+    border: 3px solid black;
+}
+
+#mudbox{    
+    position: fixed;
+    height: 100px;
+    width: 200px;
+    top: 200px;
+    left: 18%;
+    font-family: monospace;
+    font-size: 80px;
+}
+
+#maya{
+    position: fixed;
+    height: 100px;
+    width: 200px;
+    top: 200px;
+    left: 68%;
+    font-family: monospace;
+    font-size: 80px;
+}
+
+#carhigh{
+    position: relative;
+    height: 400px;
+    margin-top: 130px;
+    margin-left: 200px;
+    border: 3px solid black;
+}
+
+#zed{
+    position: relative;
+    height: 600px;
+    margin-top: 130px;
+    margin-left: 200px;
+    border: 3px solid black;
+}
+
+#wolf{
+    position: relative;
+    height: 600px;
+    margin-top: 130px;
+    border: 3px solid black;
+}
+
+#al{    
+    position: fixed;
+    height: 100px;
+    width: 200px;
+    top: 200px;
+    left: 18%;
+    font-family: monospace;
+    font-size: 80px;
+}
+
+#ps{
+    position: fixed;
+    height: 100px;
+    width: 200px;
+    top: 200px;
+    left: 58%;
+    font-family: monospace;
+    font-size: 80px;
+}
+
+#retorn2{
+    margin-top: 60px;
+}
+
+#pr{ 
+    position: fixed;
+    height: 100px;
+    width: 200px;
+    top: 200px;
+    left: 18%;
+    font-family: monospace;
+    font-size: 80px;
+
+}
+
+#un{
+    position: fixed;
+    height: 100px;
+    width: 200px;
+    top: 200px;
+    left: 58%;
+    font-family: monospace;
+    font-size: 80px;
+}
+
+#space{
+    position: relative;
+    height: 600px;
+    margin-top: 130px;
+    margin-left: 310px;
+    border: 3px solid black;
+}
+
+#untcats{
+    position: relative;
+    height: 600px;
+    margin-top: 130px;
+    margin-left: 120px;
+    border: 3px solid black;
+}
+
+#crv{
+    position: relative;
+    height: 800px;
+    margin-top: 10px;
+    margin-left: 730px;
+    border: 3px solid black;
+}
+
+#retorn3{
+    margin-top: -15px;
+}
